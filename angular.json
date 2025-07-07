@@ -24,6 +24,10 @@
           "builder": "@angular/build:application",
           "options": {
             "browser": "src/main.ts",
+            "baseHref": "/hwDeploy/",
+            "outputPath":"dist/myapp",
+            "index": "src/index.html",
+
             "polyfills": [
               "zone.js"
             ],
@@ -98,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5192bca0-bf7c-42d5-b760-999b4d257fff"
   }
 }
